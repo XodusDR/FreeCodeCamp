@@ -1,0 +1,34 @@
+h1 {
+    color:blue;
+  
+
+
+}
+/*Id are used to specify a specific element with its responding id and style them */
+#foo {
+
+    color:red;
+}
+
+/*Class can appply to more than one element*/
+
+.baz {
+    color:yellow;
+    font-weight: 300;
+}
+
+/*Specificity order
+1. inline ( <div style:"color: blue;"> </div>)
+2. id (#foo as seen above)
+3. Class (.baz as seen above)
+4. type (h1 example)*/
+
+/*CSS selectors
+a,b Multiple Element Selector
+a b Descendant Selector
+a>b Child Selector
+a+b Adjacent Sibling Selector
+[a=b] Attribute Selector
+a:b Pseudoclass Selector
+a::b Pseudoelement Selector
+*/
